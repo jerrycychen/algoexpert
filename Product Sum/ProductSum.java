@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Program {
+class ProductSum {
     // Tip: You can use `element instanceof ArrayList` to check whether an item
     // is an array or an integer.
     public static int productSum(List<Object> array) {

@@ -24,4 +24,4 @@
 
 |  | Problem Statement | Difficulty | Java Solution | Kotlin Solution | Dart Solution
 | :------: | ----------------- | :--------: | ----------------- | ----------------- | ----------------- |
-| :star: | Product Sum | 🟩 | [product-sum.java](https://github.com/jerrycychen/algoexpert/blob/main/product-sum.java) |
+| :star: | Product Sum | 🟩 | [ProductSum.java](https://github.com/jerrycychen/algoexpert/blob/main/ProductSum.java) |
