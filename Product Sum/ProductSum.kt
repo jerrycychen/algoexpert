@@ -6,13 +6,13 @@ fun productSum(array: List<*>): Int {
 }
 
 fun productSumHelper(array: List<*>, multiplier: Int): Int {
-	var sum = 0
-	for (element in array) {
-		if (element is List<*>) {
-			sum += productSumHelper(element, multiplier+1)
-		} else {
-			sum += element as Int
-		}
-	}
-	return sum * multiplier
+    var sum = 0
+    for (element in array) {
+        if (element is List<*>) {
+            sum += productSumHelper(element, multiplier + 1)
+        } else {
+            sum += element as Int
+        }
+    }
+    return sum * multiplier
 }
