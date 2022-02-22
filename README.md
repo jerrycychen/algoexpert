@@ -22,6 +22,6 @@
 ⬛ : Very Hard
 <br/>
 
-|  | Problem Statement | Difficulty | Java Solution | Kotlin Solution | Dart Solution
-| :------: | ----------------- | :--------: | ----------------- | ----------------- | ----------------- |
+|  | Problem Statement | Difficulty | Java Solution | Kotlin Solution
+| :------: | ----------------- | :--------: | ----------------- | ----------------- |
 | :star: | Product Sum | 🟩 | [ProductSum.java](https://github.com/jerrycychen/algoexpert/blob/main/Product%20Sum/ProductSum.java) | [ProductSum.kt](https://github.com/jerrycychen/algoexpert/blob/main/Product%20Sum/ProductSum.kt)
