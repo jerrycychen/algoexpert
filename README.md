@@ -25,3 +25,4 @@
 |  | Problem Statement | Difficulty | Java Solution | Kotlin Solution
 | :------: | ----------------- | :--------: | ----------------- | ----------------- |
 | :star: | Product Sum | 🟩 | [ProductSum.java](https://github.com/jerrycychen/algoexpert/blob/main/Product%20Sum/ProductSum.java) | [ProductSum.kt](https://github.com/jerrycychen/algoexpert/blob/main/Product%20Sum/ProductSum.kt)
+| :star: | Binary Search | 🟩 | [BinarySearchIterative.java](https://github.com/jerrycychen/algoexpert/blob/main/Binary%20Search/BinarySearchIterative.java) | [BinarySearchIterative.kt](https://github.com/jerrycychen/algoexpert/blob/main/Binary%20Search/BinarySearchIterative.kt)
