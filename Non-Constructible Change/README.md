@@ -20,32 +20,57 @@ coins = [5, 7, 1, 1, 2, 3, 22]
 <details>
     <summary>Hint 1</summary>
 
-    One approach to solve this problem is to attempt to create every single amount of change, starting at 1 and going up until you eventually can't create an amount. While this approach works, there is a better one.
+    One approach to solve this problem is to attempt to create every single
+    amount of change, starting at 1 and going up until you eventually can't
+    create an amount. While this approach works, there is a better one.
 </details>
 
 <details>
     <summary>Hint 2</summary>
 
-    Start by sorting  the input array. Since you're trying to find the minimum amount of change that you can't create, it makes sense to consider the smallest coins first.
+    Start by sorting  the input array. Since you're trying to find the minimum
+    amount of change that you can't create, it makes sense to consider the
+    smallest coins first.
 </details>
 
 <details>
     <summary>Hint 3</summary>
 
-    To understand the trick to this problem, consider the following example: coins = [1, 2, 4]. With this set of coins, we can create 1, 2, 3, 4, 5, 6, 7 cents worth of change. Now, if we were to add a coin of value 9 to this set, we would not be able to create 8 cents. However, if we were to add a coin of value 7, we would be able to create 8 cents, and we would also be able to create all valuies of change from 1 to 15. Why is this the case?
+    To understand the trick to this problem, consider the following example:
+    coins = [1, 2, 4]. With this set of coins, we can create 1, 2, 3, 4, 5, 6, 7
+    cents worth of change. Now, if we were to add a coin of value 9 to this set,
+    we would not be able to create 8 cents. However, if we were to add a coin of
+    value 7, we would be able to create 8 cents, and we would also be able to
+    create all valuies of change from 1 to 15. Why is this the case?
 </details>
 
 <details>
     <summary>Hint 4</summary>
     
-    Create a variable to store the amount of change that you can currently create up to. Sort all ofyour coins, and loop through them in ascending order. At every iteration, compare the current coin to the amount of change that you can currently create up to. Here are the two scenarios that you'll encounter:
+    Create a variable to store the amount of change that you can currently
+    create up to. Sort all ofyour coins, and loop through them in ascending
+    order. At every iteration, compare the current coin to the amount of change
+    that you can currently create up to. Here are the two scenarios that you'll
+    encounter:
     
-    - The coin value is greater than the amount of change that you can currently create plus 1.
+    - The coin value is greater than the amount of change that you can currently
+    create plus 1.
     
-    - The coin value is smaller than or equal to the amount of change that you can currently create plus 1.
+    - The coin value is smaller than or equal to the amount of change that you
+    can currently create plus 1.
     
-    In the first scenario, you simply return the current amount of change that you can create plus 1, because you can't create that amount of change. In the second scenario, you add the value of the coin to the amount of change that you can currently create up to, and you continue iterating through the coins.
-    The reason for this is that, if you're in the second scenario, you can create all of the values of change that you can currently create plus the value of the coin that you just considered. lf you're given coins [1 , 2], then you can make 1, 2, 3 cents. So if you add a coin of value 4, then you can make 4 + 1 cents, 4 + 2 cents, and 4 + 3 cents. Thus, you can make up to 7 cents.   
+    In the first scenario, you simply return the current amount of change that
+    you can create plus 1, because you can't create that amount of change. In
+    the second scenario, you add the value of the coin to the amount of change
+    that you can currently create up to, and you continue iterating through the
+    coins.
+
+    The reason for this is that, if you're in the second scenario, you can
+    create all of the values of change that you can currently create plus the
+    value of the coin that you just considered. lf you're given coins [1 , 2], 
+    then you can make 1, 2, 3 cents. So if you add a coin of value 4, then you 
+    can make 4 + 1 cents, 4 + 2 cents, and 4 + 3 cents. Thus, you can make up to 
+    7 cents.   
 </details>
 
 ---
