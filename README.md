@@ -5,7 +5,6 @@
  [![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://github.com/jerrycychen/algoexpert)
  ![Generic badge](https://img.shields.io/badge/lang-java-orange.svg)
  ![Generic badge](https://img.shields.io/badge/lang-kotlin-yellow.svg)
- ![Generic badge](https://img.shields.io/badge/lang-dart-blue.svg)
  [![Generic badge](https://img.shields.io/badge/last%20updated-20--02--2022-pink)](https://github.com/jerrycychen/algoexpert)
 
 ### ⚡ LIST OF PROBLEMS 
@@ -24,5 +23,6 @@
 
 |  | Problem Statement | Difficulty | Java Solution | Kotlin Solution
 | :------: | ----------------- | :--------: | ----------------- | ----------------- |
+| :star: | Non-Constructible Change | 🟩 | [NonConstructibleChange.java](https://github.com/jerrycychen/algoexpert/blob/main/Non-Constructible%Change/NonConstructibleChange.java) | [NonConstructibleChange.kt](https://github.com/jerrycychen/algoexpert/blob/main/Non-Constructible%Change/NonConstructibleChange.kt)
 | :star: | Product Sum | 🟩 | [ProductSum.java](https://github.com/jerrycychen/algoexpert/blob/main/Product%20Sum/ProductSum.java) | [ProductSum.kt](https://github.com/jerrycychen/algoexpert/blob/main/Product%20Sum/ProductSum.kt)
 | :star: | Binary Search | 🟩 | [BinarySearchIterative.java](https://github.com/jerrycychen/algoexpert/blob/main/Binary%20Search/BinarySearchIterative.java) | [BinarySearchIterative.kt](https://github.com/jerrycychen/algoexpert/blob/main/Binary%20Search/BinarySearchIterative.kt)
