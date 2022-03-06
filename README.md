@@ -24,6 +24,7 @@
 |  | Problem Statement | Difficulty | Java Solution | Kotlin Solution
 | :------: | ----------------- | :--------: | ----------------- | ----------------- |
 | :star: | Two Number Sum | 🟩 | [TwoNumberSum.java](https://github.com/jerrycychen/algoexpert/blob/main/Two%20Number%20Sum/TwoNumberSum.java) | [TwoNumberSum.kt](https://github.com/jerrycychen/algoexpert/blob/main/Two%20Number%20Sum/TwoNumberSum.kt)
+| :star: | Validate Subsequence | 🟩 | [ValidateSubsequence.java](https://github.com/jerrycychen/algoexpert/blob/main/Validate%20Subsequence/ValidateSubsequence.java) | [ValidateSubsequence.kt](https://github.com/jerrycychen/algoexpert/blob/main/Validate%20Subsequence/ValidateSubsequence.kt)
 | :star: | Non-Constructible Change | 🟩 | [NonConstructibleChange.java](https://github.com/jerrycychen/algoexpert/blob/main/Non-Constructible%20Change/NonConstructibleChange.java) | [NonConstructibleChange.kt](https://github.com/jerrycychen/algoexpert/blob/main/Non-Constructible%20Change/NonConstructibleChange.kt)
 | :star: | Branch Sums | 🟩 | [BranchSums.java](https://github.com/jerrycychen/algoexpert/blob/main/Branch%20Sums/BranchSums.java) | [BranchSums.kt](https://github.com/jerrycychen/algoexpert/blob/main/Branch%20Sums/BranchSums.kt)
 | :star: | Node Depths | 🟩 | [NodeDepthsRecursive.java](https://github.com/jerrycychen/algoexpert/blob/main/Node%20Depths/NodeDepthsRecursive.java) | [NodeDepthsRecursive.kt](https://github.com/jerrycychen/algoexpert/blob/main/Node%20Depths/NodeDepthsRecursive.kt)
