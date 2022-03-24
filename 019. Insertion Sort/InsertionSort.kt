@@ -1,6 +1,6 @@
 package com.algoexpert.program
 
-fun selectionSort(array: MutableList<Int>): List<Int> {
+fun InsertionSort(array: MutableList<Int>): List<Int> {
     if (array.size == 0) return array
     for (i in 1 until array.size) {
         for (j in i - 1 downTo 0) {
