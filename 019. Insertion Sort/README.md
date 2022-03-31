@@ -20,7 +20,7 @@ array = [8, 5, 2, 9, 5, 6, 3]
 <details>
     <summary>Hint 1</summary>
 
-    Devide the input array into two subarrays in place. The first element 
+    Divide the input array into two subarrays in place. The first element 
     subarray should be sorted at all times and should start with a length 
     of 1, while the second subarray should be unsorted. Iterate through 
     the unsorted subarray, inserting all of its elements into the sorted 
