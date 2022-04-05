@@ -34,7 +34,7 @@ true // it's written the same forward and backward
 </details>
 
 <details>
-    <summary>Hint 1</summary>
+    <summary>Hint 3</summary>
 
     Go back to an iterative solution and try using pointers to
     solve this problem: start with a pointer at the first index of
