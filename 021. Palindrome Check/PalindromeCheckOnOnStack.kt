@@ -2,7 +2,7 @@ package com.algoexpert.program
 
 import java.util.ArrayDeque
 
-fun isPaliPalindromeCheckOnOnStackndrome(string: String): Boolean {
+fun PalindromeCheckOnOnStack(string: String): Boolean {
     val length = string.length
     if (length == 0) {
         return false
