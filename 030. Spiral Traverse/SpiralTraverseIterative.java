@@ -30,7 +30,7 @@ class Program {
                 }
                 result.add(array[endRow][col]);
             }
-            for (int row = endRow - 1; row >= startRow; row--) {
+            for (int row = endRow - 1; row > startRow; row--) {
                 // Handle the edge case when there's a single column
                 // in the middle of the matrix. In this case, we don't
                 // want to double-count the values in this column, which
