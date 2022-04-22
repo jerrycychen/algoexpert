@@ -1,6 +1,6 @@
 package com.algoexpert.program
 
-// O(n) time | O(n) space - where n is the total number of elements in the array and
+// O(n) time | O(n) space - where n is the total number of elements in the array
 fun spiralTraverse(array: List<List<Int>>): List<Int> {
     if (array.size == 0) return mutableListOf<Int>()
 
